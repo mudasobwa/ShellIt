@@ -12,26 +12,28 @@ default partial
 xkb_symbols "base" {
 // 1st keyboard row
     key <TLDE> { [NoSymbol, NoSymbol, U2261, approxeq] };
-    key <AE01> { [NoSymbol, NoSymbol, onesuperior] };
+    key <AE01> { [NoSymbol, NoSymbol, onesuperior, U2135] };
     key <AE02> { [NoSymbol, NoSymbol, twosuperior, onehalf] };
     key <AE03> { [NoSymbol, NoSymbol, threesuperior, onethird] };
     key <AE04> { [NoSymbol, NoSymbol, dollar, onequarter] };
-    key <AE05> { [NoSymbol, NoSymbol, U2030] };
-    key <AE07> { [NoSymbol, NoSymbol, ampersand] };
-    key <AE08> { [NoSymbol, NoSymbol, enfilledcircbullet, oneeighth] };
-    key <AE09> { [NoSymbol, NoSymbol, U2282, U2208] };
-    key <AE10> { [NoSymbol, NoSymbol, U2283, U220B] };
+    key <AE05> { [NoSymbol, NoSymbol, U2030, U2205] };
+    key <AE07> { [NoSymbol, NoSymbol, ampersand, U2228] };
+    key <AE08> { [NoSymbol, NoSymbol, U221E, enfilledcircbullet] };
+    key <AE09> { [NoSymbol, NoSymbol, U2208, U2209] };
+    key <AE10> { [NoSymbol, NoSymbol, U220B, U220C] };
     key <AE11> { [NoSymbol, NoSymbol, emdash, hyphen] };
     key <AE12> { [NoSymbol, NoSymbol, notequal, plusminus] };
 
 // 2nd keyboard row
-    key <AD03> { [NoSymbol, NoSymbol, EuroSign] }; // "e"
-    key <AD04> { [NoSymbol, NoSymbol, registered] }; // "r"
+    key <AD02> { [NoSymbol, NoSymbol, U2200, U00AC] }; // "w"
+    key <AD03> { [NoSymbol, NoSymbol, U2203, U2204] }; // "e"
+    key <AD04> { [NoSymbol, NoSymbol, registered, U221A] }; // "r"
     key <AD05> { [NoSymbol, NoSymbol, trademark] }; // "t"
-    key <AD06> { [NoSymbol, NoSymbol, yen] }; // "y"
+    key <AD06> { [NoSymbol, NoSymbol, yen, EuroSign] }; // "y"
+    key <AD09> { [NoSymbol, NoSymbol, U2205, U2218] }; // "o"
     key <AD10> { [NoSymbol, NoSymbol, acute, doubleacute] }; // "p"
-    key <AD11> { [NoSymbol, NoSymbol, bracketleft, braceleft ] }; // [
-    key <AD12> { [NoSymbol, NoSymbol, bracketright, braceright ] }; // ]
+    key <AD11> { [NoSymbol, NoSymbol, U2329, U227A ] }; // [
+    key <AD12> { [NoSymbol, NoSymbol, U232A, U227B ] }; // ]
 
 // 3rd keyboard row
     key <AC01> { [NoSymbol, NoSymbol, U0301, NoSymbol] }; // "a"
@@ -47,7 +49,7 @@ xkb_symbols "base" {
 // 4th keyboard row
     key <AB02> { [NoSymbol, NoSymbol, multiply, U22C5] }; // "x"
     key <AB03> { [NoSymbol, NoSymbol, copyright, cent] }; // "c"
-    key <AB08> { [NoSymbol, NoSymbol, guillemotleft, U21D0] }; // ","
-    key <AB09> { [NoSymbol, NoSymbol, guillemotright, U21D2] }; // "."
+    key <AB08> { [NoSymbol, NoSymbol, guillemotleft, U2282] }; // ","
+    key <AB09> { [NoSymbol, NoSymbol, guillemotright, U2283] }; // "."
     key <AB10> { [NoSymbol, NoSymbol, ellipsis] }; // "/"
 };
