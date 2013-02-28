@@ -25,6 +25,7 @@ xkb_symbols "base" {
     key <AE12> { [NoSymbol, NoSymbol, notequal, plusminus] };
 
 // 2nd keyboard row
+    key <AD01> { [NoSymbol, NoSymbol, U231A, U231B] }; // "q"
     key <AD02> { [NoSymbol, NoSymbol, U2200, U00AC] }; // "w"
     key <AD03> { [NoSymbol, NoSymbol, U2203, U2204] }; // "e"
     key <AD04> { [NoSymbol, NoSymbol, registered, U221A] }; // "r"
@@ -45,6 +46,8 @@ xkb_symbols "base" {
     key <AC09> { [NoSymbol, NoSymbol, rightdoublequotemark, rightsinglequotemark] }; // "l"
     key <AC10> { [NoSymbol, NoSymbol, leftsinglequotemark, minutes] }; // ";"
     key <AC11> { [NoSymbol, NoSymbol, rightsinglequotemark, seconds] }; // "'"
+
+    key <BKSL> { [NoSymbol, NoSymbol, U03BB, U039B] }; // "'"
 
 // 4th keyboard row
     key <AB02> { [NoSymbol, NoSymbol, multiply, U22C5] }; // "x"
